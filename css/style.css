@@ -1,0 +1,480 @@
+
+/* font links */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+
+
+:root{
+
+    --balck:#000000;
+    --white: #ffffff;
+    --gray:#8e8e8e;
+    
+    --lato:"Lato", serif;
+    --rob:"Roboto", serif;
+}
+
+/*common css*/
+body{
+    font-family: var(--rob) !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #b8b8b8;
+}
+
+.pb_custom{
+    padding-bottom: 95px;
+}
+/* common end */
+
+/* header start */
+.header{
+    padding:15px 0;
+    font-family: var(--lato);
+}
+.logo{
+
+}
+.ntog:focus{
+    box-shadow: none;
+}
+.menu{}
+.menu ul li a{
+    margin-right: 12px;
+    font-size: 16px !important;
+    color: var(--gray) !important;
+    text-transform: uppercase!important;
+}
+.search-icon{
+    background-color: transparent !important;
+    border: 0;
+    padding-top: 12px;
+    font-size: 17px;
+    color: var(--gray);
+}
+.menu ul li a:hover{
+    color:var(--balck) !important;
+    border-bottom: 2px solid #333 !important;
+    transition: .33s linear;
+}
+
+.dropdown-custom{
+    top:40px !important;
+    left:-168px !important;
+}
+
+.input-search:hover{
+    background-color: transparent;
+    border-bottom: 2px var(--gray)
+}
+.search-custom{
+    padding: 10px 14px;
+    border: 1px solid #8e8e8e;
+    border-radius:5px;
+    font-size:20px;
+    color:#8e8e8e;
+    transition: .33s linear;
+}
+.search-custom:hover{
+    cursor: pointer;
+    border:1px solid #8e8e8e;
+    background-color: #333;
+    color:#8e8e8e;
+}
+/* header end */
+/*slider start*/
+.slider{
+
+    padding-bottom: 100px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+    left: 0;
+    z-index: 2;
+    display: flex
+    ;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+/*Not work if i change bt class for carousel*/
+
+
+.s_text{
+    margin-top: 50px;
+}
+.s_text h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #101010;
+}
+.s_text h2{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #101010;
+}
+.s_text p{
+    margin-bottom: 35px;
+    color:#101010;
+}
+.s_icon{
+    font-size: 42px !important;
+    color:#101010;
+}
+.s_icon ul li{
+    margin-right: 30px !important;
+    
+}
+/*not 
+.s_icon ul li i {
+    transition: .3s;
+    color:#101010;
+}
+.s_icon ul li i:hover {
+    color: white !important;     
+}
+works*/
+
+.plain:hover {
+    color: #ffffff;
+    transition: .3s;
+    transform: scale(.8);
+}
+.s_img{}
+.s_img img{}
+/*slider end*/
+
+
+
+/* Welcome section start*/
+/* title start */
+.shape{
+    /* width:2px; */
+    height:50px; 
+    /* background-color:#333; */
+}
+.t_head{
+    margin-top: 20px;
+    font-family: lato-regular !important;
+    font-size: 30px;
+    font-weight: 400;
+    color: #101010;
+    text-transform: uppercase;   
+}
+/* title end */
+/* welcome paragraph start */
+/* welcome paragraph end */
+/* Welcome section end*/
+
+/* service start */
+.service{
+    background-color: #9db9b9;
+}
+
+
+
+
+.s_text {
+    padding: 10px;
+}
+
+.s_text h2 {
+    margin: 55px 0 0;
+    font-family: var(--lato);
+    font-weight: 700;
+    font-size: 18px;
+    color: #101010;
+    text-transform: uppercase;
+}
+
+.hr-custom {
+    margin: 16px auto;
+    width: 20%;
+}
+
+.s_text p {
+    line-height: 28px;
+}
+
+.btn_service {
+    margin: 25px 0 15px;
+    font-family: var(--rob);
+    font-weight: 500;
+    background-color: #000000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.btn_service i {
+    margin-left: 10px;
+}
+
+.s_single {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.s_single:hover {
+    color: #fff
+    
+}
+
+.s_single:hover .btn_service {
+    color: #fff;
+}
+
+/* service end */
+
+
+/* About Us Start */
+.a_para {
+    line-height: 28px;
+    margin: 25px 0 26px;
+}
+
+.about_text {
+    margin-left: 32px;
+}
+
+
+/* About Us End */
+/* Recent Work Start */
+.recent {
+    background-color: #f8f8f8;
+}
+
+.portfolio {
+    padding-top: 100px;
+}
+
+.p_img {
+    transition: .33s linear;
+}
+
+.p_single:hover .p_img {
+    opacity: 25%;
+}
+
+.p_single {
+    position: relative;
+    transition: .33s linear;
+    margin-top: 40px;
+}
+
+.portfolio_menu {
+    margin-right: 20px;
+    border: 0;
+}
+
+.portfolio_1st_menu {
+
+    background-color: transparent;
+    color: #333 !important;
+    border: 1px solid #333 !important;
+}
+
+
+
+.portfolio_menu li button {
+    background-color: transparent;
+    margin-right: 20px;
+    padding: 12px 7px;
+    border: 1px solid transparent;
+    color: #8e8e8e;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .33s linear;
+}
+
+.portfolio_menu li :hover {
+    color: #8e8e8e;
+}
+
+
+.p_overlay_icon i {
+    display: none;
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    transition: .33s linear !important;
+}
+
+.p_text {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    padding: 12px 30px;
+    background-color: #fff;
+    transition: .33s linear;
+}
+
+.p_single:hover .p_overlay_icon i,
+.p_single:hover .p_text {
+    display: block;
+}
+
+
+.p_text h3 {
+    font-family: var(--lato);
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+
+/* Recent Work End */
+
+/* Feature Start */
+/* Item Start */
+.f_single {
+    margin-top: 75px;
+    position: relative;
+    border-bottom: 2px solid #cccccc;
+    transition: .33s linear;
+}
+
+.icon-custom {
+
+    position: absolute;
+    font-size: 48px;
+    left: 0;
+    top: -14px;
+}
+
+.f_h2 {
+    font-family: lato-bold;
+    font-weight: 700;
+    margin-left: 60px;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.f_p {
+    margin: 35px 0;
+}
+
+.f_single:hover {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+/* Item End */
+/* Feature End */
+
+/* testimonial start */
+
+.testimony{
+    padding-bottom: 100px;
+}
+.c_h1{
+    font-family: Playfair Display;
+    font-weight: 700;
+    color: #000000;
+}
+.t_item{
+    margin-top: 60px;
+}
+.t_img{}
+.t_img img{
+    width: 100%;
+}
+.t_text{
+    color: #000000;
+}
+.t_text p{}
+
+/* testimonial end */
+
+/* footer top start */
+.footer_top{
+    padding: 55px 0 55px;
+    background-color: #2E2F32;
+}
+.ft_detail{
+    padding-right: 120px;
+}
+.ft_detail p{
+    color: var(--white);
+    line-height: 30px;
+}
+.ft_links{}
+.ft_links h2{
+    margin-bottom: 8px;
+    font-size:18px;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 30px;
+}
+.ft_links ul li a{
+    margin-bottom: 8px;
+    display: block;
+    color:var(--white);
+    text-decoration: none;
+}
+.social-icons a {
+    font-size: 35px;
+    color: #F0FFF0;
+    margin-right: 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover{
+    transform: scale(1.2); /* Slight zoom on hover */
+}
+/* footer top end */
+
+/* footer start */
+footer{
+    padding: 20px 0 30px;
+    background-color: #2E2F32;
+}
+footer p{
+    color:var(--white);
+    line-height: 30px;
+}
+footer p a{
+    color: #F0FFF0 !important;
+    text-decoration: none !important;
+}
+
+/* footer end */
